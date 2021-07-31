@@ -45,6 +45,7 @@ namespace ProNatur_Biomarkt_GmbH
             this.btmProducts.TabIndex = 0;
             this.btmProducts.Text = "Produkte verwalten";
             this.btmProducts.UseVisualStyleBackColor = true;
+            this.btmProducts.Click += new System.EventHandler(this.btmProducts_Click);
             // 
             // btmBill
             // 
